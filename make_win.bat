@@ -1,0 +1,1 @@
+py -m PyInstaller youtube_dl\__main__.py --onefile --name youtube-dl --version-file win\ver.txt --icon win\icon\cloud.ico --upx-exclude=vcruntime140.dll
